@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     }
-}, { timestamps: true });
+}, { timestamps: true }); // USE FOR 1. CREATING TIME OF CRAFTING A/C 2.UPDATE THE INFO (REQUIRE-TIMESTAMPS)
 
 const User = mongoose.model('User', userSchema);
 
